@@ -1,6 +1,6 @@
 import {RouterModule, Routes} from "@angular/router";
-import {SplashComponent} from "./components/splash.component";
-import {UserService} from "./services/user.service";
+import {SplashComponent} from "./splash/splash.component";
+import {UserService} from "./shared/services/user.service";
 
 
 export const allAppComponents = [SplashComponent];
